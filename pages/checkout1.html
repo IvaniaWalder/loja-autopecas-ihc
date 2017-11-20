@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Obaju e-commerce template">
+    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
+    <meta name="keywords" content="">
+
+    <title>Águia Peças Automotivas</title>
+
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- styles -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+
+    <!-- theme stylesheet -->
+    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- your stylesheet with modifications -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="js/respond.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.png" width="64px" height="64px">
+</head>
+
+<body>
+
+    <!--
+        ********************************************************************************************
+        TOPO DA PÁGINA PRETO
+        ********************************************************************************************
+    -->
+    <div id="top">
+        <!--
+        ********************************************************************************************
+        MENU PRETO
+        ********************************************************************************************
+    -->
+        <div class="container">
+            <div class="col-md-6 col-md-offset-6" data-animate="fadeInDown">
+                <ul class="menu">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#login-modal">Acesso</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Registrar-se</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--
+        ********************************************************************************************
+        CAIXA DE DÍALOGO DE LOGIN
+        ********************************************************************************************
+    -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="Login">Login do Cliente</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="customer-orders.html" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email-modal" placeholder="e-mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password-modal" placeholder="Senha">
+                            </div>
+
+                            <p class="text-center">
+                                <button class="btn btn-primary">
+                                    <i class="fa fa-sign-in"></i> Acessar</button>
+                            </p>
+
+                        </form>
+
+                        <p class="text-center text-muted">Não possui cadastro?</p>
+                        <p class="text-center text-muted">
+                            <a href="register.html">
+                                <strong>Registrar-se</strong>
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- *** TOP BAR END *** -->
+
+    <!--
+        ********************************************************************************************
+        BARRA DO MENU PRINCIPAL
+        ********************************************************************************************
+    -->
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                    <img src="img/logo.png" alt="Obaju logo" class="hidden-xs" width="60px" height="60px">
+                    <span>Águia Peças Automotivas</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
+                        <span class="sr-only">Toggle search</span>
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <a class="btn btn-default navbar-toggle" href="cart.html">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="hidden-xs">3 items no carrinho</span>
+                    </a>
+                </div>
+            </div>
+            <!--/.navbar-header -->
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active">
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Amortecedores
+                            <b class="caret"></b>
+                        </a>
+                        <!--
+        ********************************************************************************************
+        MENU PRINCIPAL
+        ********************************************************************************************
+    -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h5>Dianteiro</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Traseiro</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Jogos</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.yamm-content -->
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Freios
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h5>Tambor de Freio</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Cilindro Mestre</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Fluido do Freio</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Pastilhas de Freio</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="category.html">Fiat</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Chevrolet</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Volkswagen</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Renault</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.yamm-content -->
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Pneus
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h5>Aro 13</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="index.html">Continental</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Goodyear</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category-right.html">Pirelli</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Aro 14</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="index.html">Continental</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Goodyear</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category-right.html">Pirelli</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Aro 15</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="index.html">Continental</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Goodyear</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category-right.html">Pirelli</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h5>Aro 16</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="index.html">Continental</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category.html">Goodyear</a>
+                                                </li>
+                                                <li>
+                                                    <a href="category-right.html">Pirelli</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.yamm-content -->
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html">Ver Mais</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!--/.nav-collapse -->
+
+            <div class="navbar-buttons">
+
+                <div class="navbar-collapse collapse right" id="basket-overview">
+                    <a href="cart.html" class="btn btn-primary navbar-btn">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="hidden-sm">3 items no Carrinho</span>
+                    </a>
+                </div>
+                <!--/.nav-collapse -->
+
+                <div class="navbar-collapse collapse right" id="search-not-mobile">
+                    <button type="button" class="btn navbar-btn btn-primary" data-toggle="collapse" data-target="#search">
+                        <span class="sr-only">Pesquisar</span>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Pesquisar">
+                        <span class="input-group-btn">
+
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa fa-search"></i>
+                            </button>
+
+                        </span>
+                    </div>
+                </form>
+
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /#navbar -->
+
+    <!-- *** NAVBAR END *** -->
+
+
+
+    <div id="all">
+        <div id="content">
+            <div class="container">
+
+                <div class="col-md-12">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                        <li>Confirmação de Compra - Endereço de Entrega</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9" id="checkout">
+
+                    <div class="box">
+                        <form method="post" action="checkout2.html">
+                            <h1>Confirmação de Compra</h1>
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="active">
+                                    <a href="#">
+                                        <i class="fa fa-map-marker"></i>
+                                        <br>Endereço</a>
+                                </li>
+                                <li class="disabled">
+                                    <a href="#">
+                                        <i class="fa fa-truck"></i>
+                                        <br>Forma de Entrega</a>
+                                </li>
+                                <li class="disabled">
+                                    <a href="#">
+                                        <i class="fa fa-money"></i>
+                                        <br>Pagamento</a>
+                                </li>
+                                <li class="disabled">
+                                    <a href="#">
+                                        <i class="fa fa-check"></i>
+                                        <br>Confirmação</a>
+                                </li>
+                            </ul>
+
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="firstname">Nome</label>
+                                            <input type="text" class="form-control" id="firstname">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="form-group">
+                                            <label for="lastname">Sobrenome</label>
+                                            <input type="text" class="form-control" id="lastname">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="form-group">
+                                            <label for="zip">Cep</label>
+                                            <input type="text" class="form-control" id="zip">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="street">Logradouro</label>
+                                            <input type="text" class="form-control" id="street">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+
+                                <div class="row">
+                                        <div class="col-sm-6 col-md-3">
+                                                <div class="form-group">
+                                                    <label for="city">Nº</label>
+                                                    <input type="text" class="form-control" id="numero">
+                                                </div>
+                                            </div>
+                                    <div class="col-sm-6 col-md-9">
+                                        <div class="form-group">
+                                            <label for="city">Bairro</label>
+                                            <input type="text" class="form-control" id="bairro">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-9">
+                                        <div class="form-group">
+                                            <label for="city">Cidade</label>
+                                            <input type="text" class="form-control" id="city">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="form-group">
+                                            <label for="state">UF</label>
+                                            <select class="form-control" id="state">
+                                                <option value="ES">Espírito Santo</option>
+                                                <option value="MG">Minas Gerais</option>
+                                                <option value="RJ">Rio de Janeiro</option>
+                                                <option value="SP">São Paulo</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+                                <div class="row">
+                                        <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="phone">Telefone</label>
+                                                    <input type="text" class="form-control" id="phone">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="form-group">
+                                                    <label for="email">Email</label>
+                                                    <input type="text" class="form-control" id="email">
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+
+                            <div class="box-footer">
+                                <div class="pull-left">
+                                    <a href="basket.html" class="btn btn-default">
+                                        <i class="fa fa-chevron-left"></i>Carrinho</a>
+                                </div>
+                                <div class="pull-right">
+                                    <button type="submit" class="btn btn-primary">Forma de Entrega
+                                        <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.box -->
+
+
+                </div>
+                <!-- /.col-md-9 -->
+
+                <div class="col-md-3">
+
+                    <div class="box" id="order-summary">
+                        <div class="box-header">
+                            <h3>Order summary</h3>
+                        </div>
+                        <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
+
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Order subtotal</td>
+                                        <th>$446.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping and handling</td>
+                                        <th>$10.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax</td>
+                                        <th>$0.00</th>
+                                    </tr>
+                                    <tr class="total">
+                                        <td>Total</td>
+                                        <th>$456.00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.col-md-3 -->
+
+            </div>
+        </div>
+        <!-- /#content -->
+
+        <!-- *** FOOTER ***
+ _________________________________________________________ -->
+        <div id="footer" data-animate="fadeInUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Páginas</h4>
+                        <ul>
+                            <li>
+                                <a href="text.html">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="text.html">Termos e Condições</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">Cetral de Dúvidas</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contato</a>
+                            </li>
+                        </ul>
+
+                        <hr>
+
+                        <h4>Área do Cliente</h4>
+
+                        <ul>
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#login-modal">Acesso</a>
+                            </li>
+                            <li>
+                                <a href="register.html">Registrar-se</a>
+                            </li>
+                        </ul>
+
+                        <hr class="hidden-md hidden-lg hidden-sm">
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+
+                        <h4>Itens mais acessados</h4>
+
+                        <ul>
+                            <li>
+                                <a href="category.html">Amortecedores</a>
+                            </li>
+                            <li>
+                                <a href="category.html">Pneus</a>
+                            </li>
+                            <li>
+                                <a href="category.html">Filtros</a>
+                            </li>
+                        </ul>
+
+                        <hr class="hidden-md hidden-lg">
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="col-md-3 col-sm-6">
+
+                        <h4>Nossas Lojas</h4>
+
+                        <p>
+                            <strong>Matriz</strong>
+                            <br>Avenida Vitória, 1729
+                            <br>Bento Ferreira
+                            <br>Vitória
+                            <br>(27) 3331-1037
+                            <br>
+                        </p>
+
+                        <a href="contact.html">Ver Filiais</a>
+
+                        <hr class="hidden-md hidden-lg">
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+
+
+                    <div class="col-md-3 col-sm-6">
+
+                        <h4>Cadastre-se</h4>
+
+                        <p class="text-muted">Receba informações sobre lançamentos, promoções e dicas de como cuidar do seu veículo</p>
+
+                        <form>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" placeholder="e-mail">
+
+                                <span class="input-group-btn">
+
+                                    <button class="btn btn-default" type="button">Cadastrar-se!</button>
+
+                                </span>
+
+                            </div>
+                            <!-- /input-group -->
+                        </form>
+
+                        <hr>
+
+                        <h4>Siga-nos</h4>
+
+                        <p class="social">
+                            <a href="#" class="facebook external" data-animate-hover="shake">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="twitter external" data-animate-hover="shake">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="instagram external" data-animate-hover="shake">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#" class="gplus external" data-animate-hover="shake">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a href="#" class="email external" data-animate-hover="shake">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </p>
+
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#footer -->
+
+        <!-- *** FOOTER END *** -->
+
+
+
+
+        <!-- *** COPYRIGHT ***
+ _________________________________________________________ -->
+        <div id="copyright">
+            <div class="container">
+                <div class="col-md-6">
+                    <p class="pull-left">© 2017 Águia Peças Automotivas. Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+        <!-- *** COPYRIGHT END *** -->
+    </div>
+    <!-- /#all -->
+
+
+
+
+    <!-- *** SCRIPTS TO INCLUDE ***
+ _________________________________________________________ -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap-hover-dropdown.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/front.js"></script>
+
+
+</body>
+
+</html>
