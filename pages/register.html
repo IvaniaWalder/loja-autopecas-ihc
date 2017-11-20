@@ -115,7 +115,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="cart.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.html">
                         <i class="fa fa-shopping-cart"></i>
                         <span class="hidden-xs">3 items no carrinho</span>
                     </a>
@@ -349,8 +349,8 @@
                         </ul>
                     </li>
                     <li>
-                            <a href="index.html">Ver Mais</a>
-                        </li>
+                        <a href="index.html">Ver Mais</a>
+                    </li>
                 </ul>
 
             </div>
@@ -359,7 +359,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="cart.html" class="btn btn-primary navbar-btn">
+                    <a href="basket.html" class="btn btn-primary navbar-btn">
                         <i class="fa fa-shopping-cart"></i>
                         <span class="hidden-sm">3 items no Carrinho</span>
                     </a>
@@ -403,382 +403,84 @@
 
 
     <div id="all">
+        <!-- Aqui que vc coloca as coisas da sua pagina -->
         <div id="content">
-            <!-- *** ADVANTAGES HOMEPAGE *** -->
-            <div id="advantages">
-                <div class="container">
-                    <div class="same-height-row">
-                        <div class="col-sm-4">
-                            <div class="box same-height clickable">
-                                <div class="icon">
-                                    <i class="fa fa-heart"></i>
-                                </div>
+            <div class="container">
 
-                                <h3>
-                                    <a href="#">Foco no Cliente</a>
-                                </h3>
-                                <p>Fornecemos as melhores peças para seu veículo</p>
-                            </div>
-                        </div>
+                <div class="col-md-12">
 
-                        <div class="col-sm-4">
-                            <div class="box same-height clickable">
-                                <div class="icon">
-                                    <i class="fa fa-tags"></i>
-                                </div>
-
-                                <h3>
-                                    <a href="#">Preços mais em conta</a>
-                                </h3>
-                                <p>Melhor preço médio da região</p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div class="box same-height clickable">
-                                <div class="icon">
-                                    <i class="fa fa-thumbs-up"></i>
-                                </div>
-
-                                <h3>
-                                    <a href="#">100% de satisfação</a>
-                                </h3>
-                                <p>Garantimos a satisfação ou seu dinheiro de volta</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row -->
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                        <li>Cadastro / Acesso</li>
+                    </ul>
 
                 </div>
-                <!-- /.container -->
+
+                <div class="col-md-6">
+                    <div class="box">
+                        <h1>Cadastro</h1>
+
+                        <p class="lead">Não está cadastrado?</p>
+                        <p>Você pode se registrar informando apenas os três campos abaixo</p>
+                        <p class="text-muted">Em caso de dúvidas ou problemas técnicos, você pode entrar em contato
+                            <a href="contact.html">clicando aqui</a></p>
+
+                        <hr>
+
+                        <form action="customer-orders.html" method="post">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="text" class="form-control" id="email" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Senha</label>
+                                <input type="password" class="form-control" id="password" placeholder="Senha">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-user-md"></i> Registrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="box">
+                        <h1>Acesso</h1>
+
+                        <p class="lead">Já está cadastrado?</p>
+                        <p>Se já possui cadastro em nossa loja, você pode acessar sua conta informando o e-mail e a senha abaixo</p>
+                        <p class="text-muted">Se não se lembra dos dados de acesso, você pode recuperá-los 
+                                <a href="contact.html">clicando aqui</a></p>
+                        <hr>
+
+                        <form action="customer-orders.html" method="post">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="text" class="form-control" id="email" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Senha</label>
+                                <input type="password" class="form-control" id="password" placeholder="Senha">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-sign-in"></i> Entrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
 
             </div>
-            <!-- /#advantages -->
+            <!-- /.container -->
 
-            <!-- *** ADVANTAGES END *** -->
-
-            <!-- *** HOT PRODUCT SLIDESHOW ***
- _________________________________________________________ -->
-            <div id="hot">
-                <div class="box">
-                    <div class="container">
-                        <div class="col-md-12">
-                            <h2>Peças mais vendidas</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="product-slider">
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product1.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product1_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product1.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">Fur coat with very but very very long name</a>
-                                    </h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">White Blouse Armani</a>
-                                    </h3>
-                                    <p class="price">
-                                        <del>$280</del> $143.00
-                                    </p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">Black Blouse Versace</a>
-                                    </h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">Black Blouse Versace</a>
-                                    </h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:gray;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">White Blouse Versace</a>
-                                    </h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:gray;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product1.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product1_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product1.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">Fur coat</a>
-                                    </h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:gray;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-                        <!-- /.col-md-4 -->
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">White Blouse Armani</a>
-                                    </h3>
-                                    <p class="price">
-                                        <del>$280</del> $143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:gray;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3>
-                                        <a href="detail.html">Black Blouse Versace</a>
-                                    </h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="text-center">
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:yellow;"></i>
-                                        <i class="fa fa-star" style="color:gray;"></i>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                    </div>
-                    <!-- /.product-slider -->
-                </div>
-                <!-- /.container -->
-
-            </div>
-            <!-- /#hot -->
-
-            <!-- *** HOT END *** -->
         </div>
         <!-- /#content -->
 
