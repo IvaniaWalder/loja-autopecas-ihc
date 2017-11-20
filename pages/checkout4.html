@@ -117,7 +117,7 @@
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header">                
                 <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs" width="60px" height="60px">
                     <span>Águia Peças Automotivas</span>
@@ -140,22 +140,22 @@
             <!--/.navbar-header -->
 
             <div class="navbar-collapse collapse" id="navigation">
-                    <ul class="nav navbar-nav navbar-left">
-                            <li class="active">
-                                <a href="index.html">Início</a>
-                            </li>
-                            <li>
-                                    <a href="index.html">Produtos</a>
-                            </li>
-        
-                            <li>
-                                    <a href="index.html">Encomendas Personalizadas</a>
-                            </li>
-                            
-                            <li>
-                                    <a href="index.html">Devoluções</a>
-                            </li>
-                        </ul>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active">
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li>
+                            <a href="index.html">Produtos</a>
+                    </li>
+
+                    <li>
+                            <a href="index.html">Encomendas Personalizadas</a>
+                    </li>
+                    
+                    <li>
+                            <a href="index.html">Devoluções</a>
+                    </li>
+                </ul>
 
             </div>
             <!--/.nav-collapse -->
@@ -208,179 +208,135 @@
 
     <div id="all">
         <div id="content">
+           
             <div class="container">
-
-                <div class="col-md-12">
-                    <ul class="breadcrumb">
-                        <li>
-                            <a href="#">Início</a>
-                        </li>
-                        <li>Confirmação de Compra - Endereço de Entrega</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-9" id="checkout">
-
-                    <div class="box">
-                        <form method="post" action="checkout2.html">
-                            <h1>Confirmação de Compra</h1>
-                            <ul class="nav nav-pills nav-justified">
-                                <li class="active">
-                                    <a href="#">
-                                        <i class="fa fa-map-marker"></i>
-                                        <br>Endereço</a>
-                                </li>
-                                <li class="disabled">
-                                    <a href="#">
-                                        <i class="fa fa-truck"></i>
-                                        <br>Frete</a>
-                                </li>
-                                <li class="disabled">
-                                    <a href="#">
-                                        <i class="fa fa-money"></i>
-                                        <br>Pagamento</a>
-                                </li>
-                                <li class="disabled">
-                                    <a href="#">
-                                        <i class="fa fa-check"></i>
-                                        <br>Confirmação</a>
-                                </li>
-                            </ul>
-
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="form-group">
-                                            <label for="firstname">Nome</label>
-                                            <input type="text" class="form-control" id="firstname">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="form-group">
-                                            <label for="lastname">Sobrenome</label>
-                                            <input type="text" class="form-control" id="lastname">
-                                        </div>
-                                    </div>
+                
+                                <div class="col-md-12">
+                                    <ul class="breadcrumb">
+                                        <li><a href="#">Início</a>
+                                        </li>
+                                        <li>Confirmação de Compra - Confirmação</li>
+                                    </ul>
                                 </div>
-                                <!-- /.row -->
-
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-3">
-                                        <div class="form-group">
-                                            <label for="zip">Cep</label>
-                                            <input type="text" class="form-control" id="zip">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="street">Logradouro</label>
-                                            <input type="text" class="form-control" id="street">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.row -->
-
-                                <div class="row">
-                                        <div class="col-sm-6 col-md-3">
-                                                <div class="form-group">
-                                                    <label for="city">Nº</label>
-                                                    <input type="text" class="form-control" id="numero">
+                
+                                <div class="col-md-9" id="checkout">
+                
+                                    <div class="box">
+                                        <form method="post" action="checkout4.html">
+                                            <h1>Confirmação</h1>
+                                            <ul class="nav nav-pills nav-justified">
+                                                <li><a href="checkout1.html"><i class="fa fa-map-marker"></i><br>Endereço</a>
+                                                </li>
+                                                <li><a href="checkout2.html"><i class="fa fa-truck"></i><br>Frete</a>
+                                                </li>
+                                                <li><a href="checkout3.html"><i class="fa fa-money"></i><br>Pagamento</a>
+                                                </li>
+                                                <li class="active"><a href="#"><i class="fa fa-check"></i><br>Confirmação</a>
+                                                </li>
+                                            </ul>
+                
+                                            <div class="content">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th colspan="2">Produtos</th>
+                                                                <th>Quantidade</th>
+                                                                <th>Preço unitário</th>
+                                                                <th>Desconto</th>
+                                                                <th>Total</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <img src="img/detailsquare.jpg" alt="White Blouse Armani">
+                                                                    </a>
+                                                                </td>
+                                                                <td><a href="#">Retrovisor Original</a>
+                                                                </td>
+                                                                <td>2</td>
+                                                                <td>R$123.00</td>
+                                                                <td>R$0.00</td>
+                                                                <td>R$246.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <img src="img/basketsquare.jpg" alt="Black Blouse Armani">
+                                                                    </a>
+                                                                </td>
+                                                                <td><a href="#">Roda Aro 19</a>
+                                                                </td>
+                                                                <td>1</td>
+                                                                <td>R$200.00</td>
+                                                                <td>R$0.00</td>
+                                                                <td>R$200.00</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <th colspan="5">Total</th>
+                                                                <th>R$446.00</th>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                
+                                                </div>
+                                                <!-- /.table-responsive -->
+                                            </div>
+                                            <!-- /.content -->
+                
+                                            <div class="box-footer">
+                                                <div class="pull-left">
+                                                    <a href="checkout3.html" class="btn btn-default"><i class="fa fa-chevron-left"></i>Anterior</a>
+                                                </div>
+                                                <div class="pull-right">
+                                                    <button type="submit" class="btn btn-primary">Finalizar<i class="fa fa-chevron-right"></i>
+                                                    </button>
                                                 </div>
                                             </div>
-                                    <div class="col-sm-6 col-md-9">
-                                        <div class="form-group">
-                                            <label for="city">Bairro</label>
-                                            <input type="text" class="form-control" id="bairro">
-                                        </div>
+                                        </form>
                                     </div>
-                                    <div class="col-sm-6 col-md-9">
-                                        <div class="form-group">
-                                            <label for="city">Cidade</label>
-                                            <input type="text" class="form-control" id="city">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-md-3">
-                                        <div class="form-group">
-                                            <label for="state">UF</label>
-                                            <select class="form-control" id="state">
-                                                <option value="ES">Espírito Santo</option>
-                                                <option value="MG">Minas Gerais</option>
-                                                <option value="RJ">Rio de Janeiro</option>
-                                                <option value="SP">São Paulo</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                                    <!-- /.box -->
+                
+                
                                 </div>
-                                <!-- /.row -->
-                                <div class="row">
-                                        <div class="col-sm-3">
-                                                <div class="form-group">
-                                                    <label for="phone">Telefone</label>
-                                                    <input type="text" class="form-control" id="phone">
+                                <!-- /.col-md-9 -->
+                
+                                <div class="col-md-3">
+
+                                        <div class="box" id="order-summary">
+                                                <div class="box-header">
+                                                    <h3>Lista de Compras</h3>
                                                 </div>
-                                            </div>
-                                            <div class="col-sm-9">
-                                                <div class="form-group">
-                                                    <label for="email">Email</label>
-                                                    <input type="text" class="form-control" id="email">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Subtotal</td>
+                                                                <th>R$446.00</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Frete</td>
+                                                                <th>R$10.00</th>
+                                                            </tr>
+                                            
+                                                            <tr class="total">
+                                                                <td>Total</td>
+                                                                <th>R$456.00</th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
+                        
                                             </div>
+                
                                 </div>
+                                <!-- /.col-md-3 -->
+                
                             </div>
-
-                            <div class="box-footer">
-                                <div class="pull-left">
-                                    <a href="cart.html" class="btn btn-default">
-                                        <i class="fa fa-chevron-left"></i>Carrinho</a>
-                                </div>
-                                <div class="pull-right">
-                                    <button type="submit" class="btn btn-primary">Frete
-                                        <i class="fa fa-chevron-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- /.box -->
-
-
-                </div>
-                <!-- /.col-md-9 -->
-
-                <div class="col-md-3">
-
-                        <div class="box" id="order-summary">
-                                <div class="box-header">
-                                    <h3>Lista de Compras</h3>
-                                </div>
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>Subtotal</td>
-                                                <th>R$446.00</th>
-                                            </tr>
-                                            <tr>
-                                                <td>Frete</td>
-                                                <th>R$10.00</th>
-                                            </tr>
-                            
-                                            <tr class="total">
-                                                <td>Total</td>
-                                                <th>R$456.00</th>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-        
-                            </div>
-
-                </div>
-                <!-- /.col-md-3 -->
-
-            </div>
         </div>
         <!-- /#content -->
 
@@ -430,13 +386,13 @@
 
                         <ul>
                             <li>
-                                <a href="category.html">Amortecedores</a>
+                                <a href="category.html">Produtos</a>
                             </li>
                             <li>
-                                <a href="category.html">Pneus</a>
+                                <a href="category.html">Encomendas Personalizadas</a>
                             </li>
                             <li>
-                                <a href="category.html">Filtros</a>
+                                <a href="category.html">Devoluções</a>
                             </li>
                         </ul>
 
